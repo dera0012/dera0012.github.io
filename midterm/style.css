@@ -1,0 +1,202 @@
+
+                                                            /* body */
+
+body{
+    background-color: #aad4cf;
+}
+
+
+
+
+                                                             /* header */
+
+
+
+header{
+    width: 100%;
+    position: relative;   
+}
+
+.img1{
+    width: 100%;
+    /* position: absolute; */
+}
+
+h1{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font: 95px sans-serif;
+
+    /* source 
+    https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_center */
+}
+
+
+
+
+                                                                  /* menu  */
+
+
+.un{
+    display: inline;
+    font: 1em sans-serif;
+    margin: 200px;
+    font-size: 40px;
+
+
+    /* source 
+    https://www.w3schools.com/css/css_navbar_horizontal.asp */
+}
+
+  
+.deux{
+    display: inline;
+    font: 1em sans-serif;
+    margin: 200px;
+    font-size: 40px;
+ 
+
+
+}
+
+
+
+
+
+.trois{
+    display: inline;
+    font: 1em sans-serif;
+    margin: 200px;
+    font-size: 40px;
+}
+
+
+
+h2{
+    font: 4em sans-serif;
+    font-weight: 400;}
+
+.img2{
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    
+
+}
+
+
+
+
+p {font: 2rem sans-serif;
+
+    
+}
+
+
+
+                                                                     /* list */
+.second{
+    
+    font: 1.87em sans-serif;
+}
+
+
+.one{
+    width: 95%;
+    height: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.two{
+    width: 95%;
+    height: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.three{
+    width: 95%;
+    height: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+button{
+    width: 4%;
+    height: 3.5%;
+    margin-top: 1.5%;
+    background-color: #aad4cf;
+    margin-left: 3%;
+    font-size: 1rem;
+
+}
+
+.silver{
+    margin-left: 3%;
+    font-size: 1.5rem;
+    font: 2rem sans-serif;
+}
+
+h4{
+    margin-left: 3%;
+    font-size: 3rem;
+    font: 3rem sans-serif;
+}
+
+label{
+    margin-left: 3%;
+    font-size: 1.5rem;
+    font: 2rem sans-serif;
+
+    
+}
+
+footer{
+    margin-left: 90%;
+    margin-top: 3%;
+
+    font: 1rem sans-serif;
+
+    
+}
+
+section{
+
+    border-style: solid;
+    padding-top: 2rem;
+}
+    
+
+    
+    
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
