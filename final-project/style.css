@@ -49,6 +49,46 @@ table {
 	border-spacing: 0;
 }
 
+/* <!--
+   Font Preconnect and Import:
+   importing the Open Sans font family for use in the project, specifying font weights
+   and styles as needed. 
+--> */
 
 
+body{
+    font-family: 'open sans', sans-serif;
+}
 
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav {
+   background-color: #222;
+   color: #c78c06;
+}
+
+nav ul{
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+}
+nav ul li{
+    padding: 20px;
+}
+li:first-child{
+    background-color: #c78c06;
+    color: #222;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+
+}
