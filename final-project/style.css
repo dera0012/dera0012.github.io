@@ -114,8 +114,6 @@ li:first-child{
 
 
 /* <!--
-
-    CSS Styling:
     - Sets the background color of the section to a light yellow (#ffe6ac) with padding.
     - Fixes the height of the section to 600 pixels.
     - Ensures the image within the section spans the full width of its container.
@@ -222,6 +220,21 @@ li:first-child{
 
 
 /* marketing */
+
+
+
+
+/* <!--
+   
+    - '.marketing' class sets the background color to white, adds padding, and fixes the height.
+    - '.marketing img' ensures the image spans the full width.
+    - '.marketing h1' styles the heading with a font size based on viewport width, bold weight, and padding.
+    - '.market p' sets a specific height, line height, font size, and padding for paragraphs.
+    - '.market' class styles the background color and fixes the height.
+    - '.market button' styles the call-to-action button with specific colors, dimensions, font size, padding,
+      and margin.
+--> */
+
 
 .marketing{
     background-color: white;
