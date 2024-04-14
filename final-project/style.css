@@ -94,6 +94,7 @@ li:first-child{
 /* welcome */
 .welcome{
     background-image: url(photo/main-banner.jpg);
+    background-size: cover;
     height: 500px;
 
 }
@@ -126,7 +127,7 @@ li:first-child{
 .about{
     background-color: #ffe6ac;
     padding: 15px;
-    height: 600px;
+    height: 400px;
 }
 .about img{
     width: 100%;
@@ -138,10 +139,10 @@ li:first-child{
     margin-bottom: 20px;
 }
 .about p{
-    height: 70px;
-    line-height: 25px;
-    margin-top: 20px;
-    font-size: 15px;
+    height: 60px;
+    line-height: 130%;
+    /* margin-top: 20px; */
+    font-size: 12px;
 }
 
 
@@ -152,7 +153,7 @@ li:first-child{
 
 
 .servis{
-    font-size: 50px;
+    font-size: 40px;
     padding: 15px;
     margin-top: 20px;
     font-weight: bold;
@@ -160,62 +161,56 @@ li:first-child{
 
 
 
-/* digital */  
+                                           /* digital */  
 
 
 
 /* <!--
-    - '.digital' class sets the background color to white, adds padding, and fixes the height.
-    - '.digital img' ensures the image spans the full width.
-    - '.digital h1' styles the heading with a font size based on viewport width, bold weight, and padding.
-    - '.digital p' sets a specific height, line height, font size, and padding for paragraphs.
-    - '.transform' class styles the background color and fixes the height.
-    - '.transform button' styles the call-to-action button with specific colors, dimensions, font size, padding,
-      and margin.
+
+    - '.digital' class sets the display to flex and the flex-direction to column, ensuring vertical alignment
+      of its contents.
+    - '.transform' class also utilizes flexbox properties for vertical alignment and adds margin and background
+      color for styling.
+    - '.transform h1' and '.transform p' style the heading and paragraph with padding and font sizes, ensuring
+      readability.
+    - '.transform button' styles the call-to-action button with specific colors, dimensions, and margins for
+      visual appeal.
+
 --> */
 
 
-
-
-
 .digital{
-    background-color: white;
-    padding: 15px;
-    height: 725px;
-}
-.digital img{
-    width: 100%;
-}
-.digital h1{
-    font-size: 5vw;
-    margin-top: 20px;
-    font-weight: bold;
-    padding: 15px;
-}
-.digital p{
-    height: 70px;
-    line-height: 25px;
-    font-size: 15px;
-    padding: 15px;
-    line-height: 20px;
-    
-}
-.transform{
-    background-color: #ffe6ac;
-    height: 725px;
+    display: flex;
+    flex-direction: column;
 }
 
+.transform{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #ffe6ac;
+}
+.transform h1{
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.transform p{
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
 .transform button{
     background-color: black;
     color: white;
-    width: 200px;
-    height: 80px;
-    font-size: 20px;
-    padding: 15px;
-    margin-bottom: 15;
-    margin-left: 15px;
-    border: none;
+    font-size: large;
+    padding: auto;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
 }
+
 
 
 
@@ -260,7 +255,7 @@ li:first-child{
 }
 .market{
     background-color: #ffe6ac;
-    height: 725px;
+    height: px;
 }
 
 .market button{
