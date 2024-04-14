@@ -58,15 +58,7 @@ table {
 
 body{
     font-family: 'open sans', sans-serif;
-}
-
-*{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+   
 }
 
 nav {
@@ -83,12 +75,106 @@ nav ul{
 }
 nav ul li{
     padding: 20px;
+    font-size: 20px;
 }
 li:first-child{
-    background-color: #c78c06;
     color: #222;
     height: 100px;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 60px;
+    background:#c78c06 url(photo/logo.png) no-repeat top left;
+}
 
+
+
+
+
+
+
+/* welcome */
+.welcome{
+    background-image: url(photo/main-banner.jpg);
+    height: 500px;
+
+}
+.welcome  h1{
+    font-size: 10vw;
+}
+.welcome div{
+    background-color: #222;
+    opacity: 80%;
+}
+
+
+
+
+
+
+/* about */
+
+
+/* <!--
+
+    CSS Styling:
+    - Sets the background color of the section to a light yellow (#ffe6ac) with padding.
+    - Fixes the height of the section to 600 pixels.
+    - Ensures the image within the section spans the full width of its container.
+    - Styles the heading with a large font size, bold weight, and adjusts the margin.
+    - Defines a specific height and line height for paragraphs, along with margin adjustments and font size.
+--> */
+
+
+
+.about{
+    background-color: #ffe6ac;
+    padding: 15px;
+    height: 600px;
+}
+.about img{
+    width: 100%;
+}
+.about h1{
+    font-size: 7vw;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about p{
+    height: 70px;
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+
+/* our servises */
+
+
+
+
+/* digital */
+
+
+
+
+.digital{
+    background-color: #ffe6ac;
+    padding: 15px;
+    height: 600px;
+}
+.digital img{
+    width: 100%;
+}
+.digital h1{
+    font-size: 7vw;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.digital p{
+    height: 70px;
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: 15px;
 }
