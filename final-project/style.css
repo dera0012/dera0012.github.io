@@ -221,3 +221,44 @@ li:first-child{
 
 
 
+/* marketing */
+
+.marketing{
+    background-color: white;
+    padding: 15px;
+    height: 725px;
+}
+.marketing img{
+    width: 100%;
+}
+.marketing h1{
+    font-size: 5vw;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.market p{
+    height: 70px;
+    line-height: 25px;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 20px;
+    
+}
+.market{
+    background-color: #ffe6ac;
+    height: 725px;
+}
+
+.market button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 15;
+    margin-left: 15px;
+    border: none;
+}
+
