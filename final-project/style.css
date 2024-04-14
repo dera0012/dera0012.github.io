@@ -153,28 +153,71 @@ li:first-child{
 
 
 
-/* digital */
+.servis{
+    font-size: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+/* digital */  
+
+
+
+/* <!--
+    - '.digital' class sets the background color to white, adds padding, and fixes the height.
+    - '.digital img' ensures the image spans the full width.
+    - '.digital h1' styles the heading with a font size based on viewport width, bold weight, and padding.
+    - '.digital p' sets a specific height, line height, font size, and padding for paragraphs.
+    - '.transform' class styles the background color and fixes the height.
+    - '.transform button' styles the call-to-action button with specific colors, dimensions, font size, padding,
+      and margin.
+--> */
+
 
 
 
 
 .digital{
-    background-color: #ffe6ac;
+    background-color: white;
     padding: 15px;
-    height: 600px;
+    height: 725px;
 }
 .digital img{
     width: 100%;
 }
 .digital h1{
-    font-size: 7vw;
+    font-size: 5vw;
     margin-top: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
+    padding: 15px;
 }
 .digital p{
     height: 70px;
     line-height: 25px;
-    margin-top: 20px;
     font-size: 15px;
+    padding: 15px;
+    line-height: 20px;
+    
 }
+.transform{
+    background-color: #ffe6ac;
+    height: 725px;
+}
+
+.transform button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 15;
+    margin-left: 15px;
+    border: none;
+}
+
+
+
