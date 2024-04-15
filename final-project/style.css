@@ -92,19 +92,49 @@ li:first-child{
 
 
 /* welcome */
-/* .welcome{
+.welcome div{
+    display: flex;
+    flex-direction: column;
+    /* background-color:hsl(120, 100%, lightness); */
+    background: rgba(0, 0, 0, 0.576);
+    
+    color: white;
+    
+    
+}
+
+
+.welcome{
+    display: flex;
+    height: 350px;
     background-image: url(photo/main-banner.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.welcome h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px 20px 30px 15px;
+}
+.welcome p{
+    font-size: 12px;
+    line-height: 1.5rcap;
+    padding: 0px 20px 10px 15px;
 
 }
-.welcome  h1{
-    font-size: 10vw;
+.welcome button{
+    width: 200;
+    height: 80px;
+    color: #000;
+    font-size: large;
+    background-color: #c78c06;
+    margin: 15px;
+    border: none;
 }
-.welcome div{
-    background-color: #222;
-    opacity: 80%;
-} */
 
 
 
@@ -118,6 +148,7 @@ li:first-child{
     display: flex;
     flex-direction: column;
     background-color: #ffe6ac;
+    padding: 15px;
 }
 .about1{
     display: flex;
