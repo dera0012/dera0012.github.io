@@ -91,18 +91,11 @@ li:first-child{
 
 
 
-/* welcome */
-.welcome div{
-    display: flex;
-    flex-direction: column;
-    /* background-color:hsl(120, 100%, lightness); */
-    background: rgba(0, 0, 0, 0.576);
-    
-    color: white;
-    
-    
-}
+                                                /* welcome */
 
+
+
+/* Welcome section styling: Utilizes flexbox for layout, background image for visual appeal, and styled heading, paragraph, and button for an inviting user experience. */
 
 .welcome{
     display: flex;
@@ -112,6 +105,14 @@ li:first-child{
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
+    
+    
+}
+.welcome div{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.576);
+    color: white;
     
     
 }
@@ -127,7 +128,7 @@ li:first-child{
 
 }
 .welcome button{
-    width: 200;
+    width: 200px;
     height: 80px;
     color: #000;
     font-size: large;
@@ -141,22 +142,40 @@ li:first-child{
 
 
 
-/* about */
+                                                  /* about */
 
+
+
+
+/* About section styling: Utilizes flexbox for layout with a column direction, providing structure. Background color enhances readability. Styled heading with increased font size and bold weight for emphasis. Paragraphs have appropriate font size and line height for readability and spacing.  */
 
 .about{
     display: flex;
     flex-direction: column;
     background-color: #ffe6ac;
     padding: 15px;
+    
 }
-.about1{
+.about div{
     display: flex;
     flex-direction: column;
 }
+.about h1{
+    
+    font-size: 40px;
+    margin-top: 20;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.about p{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
 
 
-/* our servises */
+                                             /* our servises */
 
 
 
@@ -170,7 +189,7 @@ li:first-child{
 
 
 
-                                           /* digital */  
+                                                 /* digital */  
 
 
 
@@ -201,7 +220,7 @@ li:first-child{
 }
 .transform h1{
     padding: 10px;
-    font-size: large;
+    font-size: 25px;
     font-weight: bold;
 }
 .transform p{
@@ -212,70 +231,55 @@ li:first-child{
 .transform button{
     background-color: black;
     color: white;
-    font-size: large;
-    padding: auto;
+    font-size: 17px;
     border: 0;
-    width: 150px;
-    height: 50px;
+    width: 170px;
+    height: 70px;
     margin: 10px;
 }
 
 
 
 
-/* marketing */
+                                              /* marketing */
 
 
+/* Marketing section styling: Utilizes flexbox with a column direction for layout. Each market item container has margin for spacing and background color for distinction. /
+/ Styled heading with padding, increased font size, and bold weight for emphasis. Paragraphs have padding, appropriate font size, and line height for readability. Button styling for contrast, with defined width, height, and margin for consistency. */
 
 
-/* <!--
-   
-    - '.marketing' class sets the background color to white, adds padding, and fixes the height.
-    - '.marketing img' ensures the image spans the full width.
-    - '.marketing h1' styles the heading with a font size based on viewport width, bold weight, and padding.
-    - '.market p' sets a specific height, line height, font size, and padding for paragraphs.
-    - '.market' class styles the background color and fixes the height.
-    - '.market button' styles the call-to-action button with specific colors, dimensions, font size, padding,
-      and margin.
---> */
-
-
-.marketing{
-    background-color: white;
-    padding: 15px;
-    height: 725px;
+.maketing{
+    display: flex;
+    flex-direction: column;
 }
-.marketing img{
-    width: 100%;
+
+.market{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #ffe6ac;
 }
-.marketing h1{
-    font-size: 5vw;
-    margin-top: 20px;
+.market h1{
+    padding: 10px;
+    font-size: 30px;
     font-weight: bold;
-    padding: 15px;
+    margin-top: 20px;
 }
 .market p{
-    height: 70px;
-    line-height: 25px;
-    font-size: 15px;
-    padding: 15px;
+    padding: 10px;
+    font-size: 12px;
     line-height: 20px;
-    
 }
-.market{
-    background-color: #ffe6ac;
-    height: px;
-}
-
 .market button{
     background-color: black;
     color: white;
-    width: 200px;
-    height: 80px;
-    font-size: 20px;
-    padding: 15px;
-    margin-bottom: 15;
-    margin-left: 15px;
-    border: none;
+    font-size: large;
+    padding: auto;
+    border: 0;
+    width: 220px;
+    height:80px;
+    margin: 10px;
 }
+
+
 
