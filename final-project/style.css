@@ -92,7 +92,7 @@ li:first-child{
 
 
 /* welcome */
-.welcome{
+/* .welcome{
     background-image: url(photo/main-banner.jpg);
     background-size: cover;
     height: 500px;
@@ -104,7 +104,7 @@ li:first-child{
 .welcome div{
     background-color: #222;
     opacity: 80%;
-}
+} */
 
 
 
@@ -114,37 +114,15 @@ li:first-child{
 /* about */
 
 
-/* <!--
-    - Sets the background color of the section to a light yellow (#ffe6ac) with padding.
-    - Fixes the height of the section to 600 pixels.
-    - Ensures the image within the section spans the full width of its container.
-    - Styles the heading with a large font size, bold weight, and adjusts the margin.
-    - Defines a specific height and line height for paragraphs, along with margin adjustments and font size.
---> */
-
-
-
 .about{
+    display: flex;
+    flex-direction: column;
     background-color: #ffe6ac;
-    padding: 15px;
-    height: 400px;
 }
-.about img{
-    width: 100%;
+.about1{
+    display: flex;
+    flex-direction: column;
 }
-.about h1{
-    font-size: 7vw;
-    margin-top: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.about p{
-    height: 60px;
-    line-height: 130%;
-    /* margin-top: 20px; */
-    font-size: 12px;
-}
-
 
 
 /* our servises */
