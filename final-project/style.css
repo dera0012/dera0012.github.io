@@ -67,7 +67,6 @@ nav {
 }
 
 nav ul{
-    margin: 10px;
     text-align: center;
     padding-top: 10px;
    
@@ -222,6 +221,7 @@ li:first-child{
     padding: 10px;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 20px;
 }
 .transform p{
     padding: 10px;
@@ -283,3 +283,43 @@ li:first-child{
 
 
 
+                                             /* video */
+
+
+ /* Video section styling: Utilizes flexbox with a column direction for layout. Each production item container has margin for spacing and background color for distinction. /
+/ Styled heading with padding, appropriate font size, and bold weight for emphasis. Paragraphs have padding, appropriate font size, and line height for readability. Button styling for contrast, with defined width, height, and margin for consistency.  */
+                                             
+
+                                             
+.video{
+    display: flex;
+    flex-direction: column;
+}
+
+.production
+{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #ffe6ac;
+}
+.production h1{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.production p{
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.production button{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    width: 170px;
+    height: 70px;
+    margin: 10px;
+}
