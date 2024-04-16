@@ -323,3 +323,40 @@ li:first-child{
     height: 70px;
     margin: 10px;
 }
+                                               /* web */
+
+
+
+
+
+.web{
+    display: flex;
+    flex-direction: column;
+}
+
+.development{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #ffe6ac;
+}
+.development h1{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.development p{
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.development button{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    width: 170px;
+    height: 70px;
+    margin: 10px;
+}
