@@ -241,7 +241,13 @@ li:first-child{
 
 
 
+
+
                                               /* marketing */
+
+
+
+
 
 
 /* Marketing section styling: Utilizes flexbox with a column direction for layout. Each market item container has margin for spacing and background color for distinction. /
@@ -283,7 +289,11 @@ li:first-child{
 
 
 
+
+
                                              /* video */
+
+
 
 
  /* Video section styling: Utilizes flexbox with a column direction for layout. Each production item container has margin for spacing and background color for distinction. /
@@ -323,10 +333,17 @@ li:first-child{
     height: 70px;
     margin: 10px;
 }
+
+
+
+
                                                /* web */
 
 
 
+
+ /* Web section styling: Utilizes flexbox with a column direction for layout. Each development item container has margin for spacing and background color for distinction. /
+/ Styled heading with padding, appropriate font size, and bold weight for emphasis. Paragraphs have padding, appropriate font size, and line height for readability. Button styling for contrast, with defined width, height, and margin for consistency. */
 
 
 .web{
@@ -352,6 +369,48 @@ li:first-child{
     line-height: 20px;
 }
 .development button{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    width: 170px;
+    height: 70px;
+    margin: 10px;
+}
+
+
+
+
+                                              /* print */
+
+
+
+ /* Print section styling: Utilizes flexbox with a column direction for layout. Each paper item container has margin for spacing and background color for distinction. /
+/ Styled heading with padding, appropriate font size, and bold weight for emphasis. Paragraphs have padding, appropriate font size, and line height for readability. Button styling for contrast, with defined width, height, and margin for consistency.                                           */
+                                              
+.print{
+    display: flex;
+    flex-direction: column;
+}
+
+.paper{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #ffe6ac;
+}
+.paper h1{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.paper p{
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.paper button{
     background-color: black;
     color: white;
     font-size: 17px;
