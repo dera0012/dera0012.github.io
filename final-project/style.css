@@ -419,3 +419,83 @@ li:first-child{
     height: 70px;
     margin: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+                                            /* team */
+
+
+
+                                            
+    
+    /* - Each profile is contained within a div with class ".john" or ".bob".
+    - Profiles have a yellow background color for visual distinction.
+    - Heading (h1) and paragraph (p) elements are styled for readability. */
+
+
+
+.team{
+    display: flex;
+    flex-direction: column;
+}
+
+.john{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #ffe6ac;
+}
+.john h1{
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.john p{
+    padding: 15px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+
+.bob{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #ffe6ac;
+}
+.bob h1{
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.bob p{
+    padding: 15px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+h4{
+    margin: 15px;
+    font-size: 20px;
+  
+}
+i{
+    border: #c78c06 solid 1px;
+    width: 95%;
+    margin-left: 2.5%;
+   
+}
