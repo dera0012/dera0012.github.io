@@ -129,7 +129,7 @@ li:first-child{
 .welcome button{
     width: 200px;
     height: 80px;
-    color: #000;
+    color:#222;
     font-size: large;
     background-color: #c78c06;
     margin: 15px;
@@ -229,7 +229,7 @@ li:first-child{
     line-height: 20px;
 }
 .transform button{
-    background-color: black;
+    background-color:#222;
     color: white;
     font-size: 17px;
     border: 0;
@@ -277,7 +277,7 @@ li:first-child{
     line-height: 20px;
 }
 .market button{
-    background-color: black;
+    background-color: #222;
     color: white;
     font-size: large;
     padding: auto;
@@ -325,7 +325,7 @@ li:first-child{
     line-height: 20px;
 }
 .production button{
-    background-color: black;
+    background-color: #222;
     color: white;
     font-size: 17px;
     border: 0;
@@ -369,7 +369,7 @@ li:first-child{
     line-height: 20px;
 }
 .development button{
-    background-color: black;
+    background-color: #222;
     color: white;
     font-size: 17px;
     border: 0;
@@ -411,7 +411,7 @@ li:first-child{
     line-height: 20px;
 }
 .paper button{
-    background-color: black;
+    background-color: #222;
     color: white;
     font-size: 17px;
     border: 0;
@@ -425,8 +425,67 @@ li:first-child{
 
 
 
+                                                  /* vision */
 
 
+
+
+
+ 
+    /* - The ".vision" class defines a flex container with a background image.
+    - Background image is set to cover the container without repetition.
+    - The ".our" class styles the content within the vision section.
+    - Heading (h1) and paragraph (p) elements are styled for readability.
+    - The button within the section is styled for consistent design. */
+
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    background-image: url(photo/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.our{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 15px;
+    
+}
+.our h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+.our p{
+    padding: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    
+
+}
+.our button{
+    background-color:  #222;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    width: 170px;
+    height: 70px;
+    margin: 10px;
+    border: #c78c06 1px solid;
+    
+}
+
+
+
+.ourteam {
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 50px 20px 10px 15px;
+}
 
 
 
