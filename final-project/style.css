@@ -570,6 +570,9 @@ i{
 
                                         /* location */
 
+     /* Section for displaying the location:
+    - Contains a map embedded from Google Maps.
+    - The map is embedded within an iframe element with specific attributes. */
                                         
 .location{
 
@@ -590,4 +593,30 @@ i{
 }
 #fram{
     width: auto;
+}
+
+
+
+
+                                              /* footer */
+                                              
+                                              
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: #c78c06;
+    background-color: #222;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.end p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.end p a{
+    color: #c78c06;
 }
