@@ -147,7 +147,7 @@ nav li:first-child{
 
 .welcome{
     display: flex;
-    height: 350px;
+    height: 400pxpx;
     background-image: url(photo/main-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +156,7 @@ nav li:first-child{
     
     
 }
-.welcome div{
+.wel{
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.576);
@@ -164,18 +164,18 @@ nav li:first-child{
     
     
 }
-.welcome h1{
+.wel h1{
     font-size: 50px;
     font-weight: bold;
     padding: 50px 20px 30px 15px;
 }
-.welcome p{
+.wel p{
     font-size: 12px;
     line-height: 1.5rcap;
     padding: 0px 20px 10px 15px;
 
 }
-.welcome button{
+.wel button{
     width: 200px;
     height: 80px;
     color:#222;
@@ -183,6 +183,8 @@ nav li:first-child{
     background-color: #c78c06;
     margin: 15px;
     border: none;
+    padding: 20px;
+   
 }
 
 
