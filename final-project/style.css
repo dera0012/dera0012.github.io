@@ -61,14 +61,40 @@ body{
    
 }
 
+
+
+
+
+
+
+                                                /* menu */
+
+
+
+
+
+/* 
+   Navigation styling:
+   - Background color and text color for nav bar.
+   - Center alignment and padding for nav items.
+   - Individual padding and font size for list items.
+   - Custom styling for the first list item (logo).
+*/
+
+
 nav {
+   
    background-color: #222;
    color: #c78c06;
+   width: auto;
 }
 
 nav ul{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-top: 10px;
+    padding: 15px;
+  
    
 
 }
@@ -76,13 +102,36 @@ nav ul li{
     padding: 20px;
     font-size: 20px;
 }
-li:first-child{
+nav li:first-child{
     color: #222;
     height: 100px;
     padding-top: 40px;
     padding-bottom: 60px;
     background:#c78c06 url(photo/logo.png) no-repeat top left;
 }
+
+#search{
+  
+    width: 90%;
+    height: 60px;
+    font-size: large;
+    padding: 10px;
+   
+}
+
+/* .zoom{
+    color: #c78c06;
+    background-color: #222;
+    border: #c78c06 1px solid;
+    height: 60px;
+    width: 60px;
+   
+    
+} */
+
+/* nav li:last-child{
+    width: 80%;
+} */
 
 
 
