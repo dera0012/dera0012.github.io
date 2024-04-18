@@ -561,6 +561,69 @@ i{
 
 
 
+                                               /* contact */
+
+
+/* 
+    Styling for the contact section:
+    - The ".contact" class defines a flex container for the contact form.
+    - The ".us" class styles the content within the contact section.
+    - Input fields and the message textarea are styled with borders.
+    - The submit button is styled for consistent design.
+    - Labels, headings, and text elements are styled for readability and hierarchy.
+*/
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.us{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.input{
+    display: flex;
+    margin-top: 10px;
+    border: 0.5px black solid;
+    min-width: 100%;
+    min-height: 50px;
+}
+#message{
+    min-width: 100%;
+    min-height: 150px;
+    margin-top: 10px;
+    border: 0.5px black solid;
+    
+}
+
+#button{
+    
+    color: #c78c06;
+    background-color: #222;
+    border: none;
+    font-size: 30px;
+    margin: 20 0;
+}
+.us form label{
+    font-size: 20px;
+}
+.us h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.us h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
 
 
 
