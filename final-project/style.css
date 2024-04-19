@@ -107,7 +107,7 @@ nav li:first-child{
     height: 100px;
     padding-top: 40px;
     padding-bottom: 60px;
-    background:#c78c06 url(photo/logo.png) no-repeat top left;
+    background:#c78c06 ;
 }
 
 #search{
@@ -153,6 +153,7 @@ nav li:first-child{
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
+    justify-content: center;
     
     
 }
@@ -161,6 +162,7 @@ nav li:first-child{
     flex-direction: column;
     background: rgba(0, 0, 0, 0.576);
     color: white;
+    
     
     
 }
@@ -575,6 +577,16 @@ nav li:first-child{
     font-size: 12px;
     line-height: 20px;
 }
+.doe{
+    display: flex;
+    flex-direction: column;
+}
+.doe i {
+    border: #c78c06 solid 1px;
+    width: 95%;
+    margin-left: 2.5%;
+   
+}
 
 
 
@@ -603,7 +615,11 @@ h4{
     font-size: 20px;
   
 }
-i{
+.rite{
+    display: flex;
+    flex-direction: column;
+}
+.rite i {
     border: #c78c06 solid 1px;
     width: 95%;
     margin-left: 2.5%;
@@ -797,4 +813,149 @@ i{
 }
 .end p a{
     color: #c78c06;
+}
+
+
+
+
+
+
+                                               /* media query */
+
+
+
+
+@media  screen and (min-width: 760px) {
+
+
+
+
+    /* menu */
+
+
+    nav ul{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    nav li:first-child{
+       
+        background: none;
+        
+    }
+    ul li p{
+        background-color: #c78c06;
+        color: #222;
+        padding: 20px 30px;
+    }
+
+
+    /* welcome */
+
+
+    .wel{
+        width: 80%;
+    }
+    .wel h1{
+        padding-right: 40%;
+    }
+
+
+    /* about */
+
+    
+
+    .about div{
+        flex-direction: row;
+        margin: 20px 100px;
+       
+    }
+    .about div img{
+        width: 50%;
+        margin-right: 20px;
+    }
+    .about hgroup p{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+
+    /* our servis */
+
+    .servis{
+        margin-left: 100px;
+    }
+
+    .mediafirst{
+        display: flex;
+        flex-direction: row;
+        margin: 5px 100px;
+    }
+    .mediasec{
+        display: flex;
+        flex-direction: row;
+        margin: 5px 100px;
+    }
+
+    .mediafirst .video{
+        width: 33%;
+    }
+    .mediafirst .web{
+        width: 33%;
+    }
+    .mediafirst .print{
+        width: 33%;
+    }
+
+    /* ourteam */
+
+
+    .ourteam{
+        margin-left: 100px;
+    }
+    .team{
+        margin: 5px 100px 0px 100px;
+    }
+
+    .john{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+    }
+    .john img{
+        width: 50%;
+    }
+    .bob{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 0px;
+    }
+    .bob img{
+        width: 50%;
+    }
+
+
+    /* contact */
+
+    .contact{
+        margin: 5px 100px;
+    }
+
+    .media3{
+        display: flex;
+        flex-direction: row;
+        margin: 5px 100px;
+    }
+    .location{
+        width: 50%;
+    }
+    .hours{
+        width: 50%;
+    }
+
+    
+    
+       
+    
+    
 }
